@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'evangelion';
+  src: url('fonts/NIS-JTC-Win-M9.ttf') format('truetype');
+}
+.eva {
+  font-family: 'evangelion';
+  font-size: 50px;
+  margin: 0px;
+  letter-spacing: -2px;
+  color: white;
+}
+.not-eva {
+  font-size: 50px;
+}
+.lower {
+  font-size: 100px;
+}
+.description {
+  font-size: 35px;
+}
+body {
+  background-color: black;
+}
+
+.description-container {
+  display: flex;
+  justify-content: flex-start;
+}
